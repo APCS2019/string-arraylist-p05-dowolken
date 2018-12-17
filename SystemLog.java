@@ -15,6 +15,10 @@ public class SystemLog{
      */
     public List<LogMessage> removeMessages(String keyword){
         /* to be implementd in part(c) */
+        for(int i=0; i<messageList.size; i++)
+           {if(containsWord(messageList.getdescription(i)))
+               messageList.remove(messageList.getdescription(i));}
+        return messageList;
 
     }
     
