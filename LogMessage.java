@@ -29,6 +29,10 @@ public class LogMessage{
          return false;
         
     public String getMachineID(){
+        return machineID;
+    }
+    
+    public String getdescription(){
         return description;
     }
     
